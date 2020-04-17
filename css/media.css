@@ -1,0 +1,252 @@
+
+@media (max-width: 1300px){
+    .nav {
+        font-size: 22px;
+        }
+    }
+@media (max-width: 1200px){
+    .nav {
+        font-size: 17px;
+        }
+}
+@media (max-width: 1050px) {
+    .header__inner {
+        padding: 20px 20px;
+    }
+    .botom__content {
+        font-size: 12px;
+    }
+    .text_team {
+        padding: 50px;
+        width: 35%;
+    }
+    .text_team h3 {
+        font-size: 24px;
+    }
+    .text_team p {
+        font-size: 14px;
+    }
+    .reviews_head h4 {
+        padding: 20px 0 0 0;
+    }
+    .galery__foto { 
+        grid-template-columns: auto auto auto
+    }
+}
+
+@media (max-width: 920px) {
+    .botom {
+        display: none;
+    }
+    .text_team h3 {
+        font-size: 18px;
+    }
+    .text_team p {
+        font-size: 12px;
+    }
+    .cards {
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        margin: 0 0 0 365px;
+        } 
+        .nav ul {
+        width: 180px;
+        padding: 5px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: solid 1px #aaa;
+        background: rgba(15,15,15,.5) url(../img/menu.png) no-repeat 10px 11px;
+        border-radius: 5px;
+        background-position: center;
+        box-shadow: 0 1px 2px rgba(0,0,0,.3);
+        margin-left: 100px;
+        }
+        .nav li {
+        display: none; /* скройте все элементы &lt;li&gt; */
+        margin: 0;
+        }
+        .nav .current {
+        display: block; /* показывайте только текущий элемент &lt;li&gt; */
+        }
+        .nav a {
+        display: block;
+        padding: 5px 5px 5px 32px;
+        text-align: left;
+        }
+        .nav .current a {
+        background: none;
+        color: #666;
+        }
+        
+        /* при проведении мышью */
+        .nav ul:hover {
+        background-image: none;
+        }
+        .nav ul:hover li {
+        display: block;
+        margin: 0 0 5px;
+        }
+        .nav ul:hover .current {
+        background: url(../img/galka.png) no-repeat 10px 7px;
+        }
+        
+    .galery__buttons button {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 780px){
+    .galery__foto{
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 690px){
+    .nav ul{
+        margin-left: 20px;
+    }
+    #dodik {
+        right: 30px;
+    }
+}
+@media (max-width: 620px){
+    .nav ul{
+        margin: 100px 0 0 -150px;
+    }
+    .main__inner h1{
+        margin-top: 270px;
+        font-size: 72px;
+    }
+    .text_team {
+        padding: 15px;
+    }
+    
+}
+@media (max-width: 550px) {
+    .galery__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .galery__foto {
+        grid-template-columns: auto;
+    }
+    .nav ul{
+        margin: 100px 0 0 -200px;
+    }
+    .text_team h2 {
+        letter-spacing: 6px;
+    }
+    .galery__buttons  button{
+        width: 90%;
+    }
+    .form-inner{
+        padding: 25px 25px;
+    }
+    .main__inner h1{
+        font-size: 55px;
+    }
+    .main__inner h2{
+        font-size: 20px;
+    }
+    #dodik {
+        display: none;
+    }
+}
+@media (max-width: 415px){
+    .nav ul {
+        margin: 100px 0 0 -260px;
+    }
+    .main__inner button{
+        margin: 50px auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .logo p2 {
+        padding: 0;
+    }
+    .main__inner h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .main__inner h2 {
+        font-size: 20px;
+        padding: 15px;
+    }
+    #but {
+        font-size: 10px;
+        width: 200px;
+        margin: 35px 0 0 90px;
+        position: absolute;
+    }
+    .nav {
+        display: contents;
+    }
+    .nav ul {
+        margin: 100px 0 0 100px;
+    }
+    .main__inner {
+        padding-top: 260px;
+    }
+    .galery__text h1 {
+        font-size: 38px;
+        line-height: 1;
+    }
+
+    .text_team {
+        width: 100%;
+    }
+    .text_team h2 {
+        padding-top: 15px;
+    }
+    .text_team h3 {
+        font-size: 20px;
+    }
+    .text_team p {
+        font-size: 16px;
+    }
+    #mila {
+        height: 500px;
+        padding: 0px;
+    }
+    #dodik {
+        height: 500px;
+        padding-left: 78px;
+    }
+    .reviews_head h4 {
+        font-size: 26px;
+    }
+    .slider {
+        padding: 50px;
+    }
+    .slider__item img {
+        display: none;
+    }
+    .contacts__text h5 {
+        font-size: 27px;
+    }
+    .form-inner {
+        padding: 20px;
+    }
+    
+}
+@media (max-width: 360px){
+    #but {
+        margin: 0 0 0 85px;
+    }
+    .nav ul {
+        margin: 100px 0 0 100px;
+    }
+}
+
+@media (max-width: 320px){
+    #but {
+        margin: 0 0 0 60px;
+    }
+    .nav ul {
+        margin: 100px 0 0 75px;
+    }
+}
